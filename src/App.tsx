@@ -72,47 +72,47 @@ interface FormState {
 // ============================================================================
 const PHOTOS = {
   // Портреты Полины
-  heroRedBelt: "/src/image/polina.jpg", // Серый жакет с красным кашемировым поясом
-  portraitWhiteClose: "/src/image/portraitWhiteClose.jpg", // Крупный портрет в молочном жакете с серьгами
-  portraitShowroomBW: "/src/image/pol-grey.jpg", // Ч/Б на белом диване на фоне рейлов
-  portraitWhiteSuit: "/src/image/portraitWhiteSuit.jpg", // В белом костюме с длинным шарфом на стуле
-  portraitDarkCoat: "/src/image/portraitDarkCoat.jpg", // В темном оверсайз-пальто в интерьере с диваном
-  portraitTopDown: "/src/image/portraitTopDown.jpg", // Сверху вниз на черном кожаном диване в лодочках
+  heroRedBelt: "/public/image/polina.jpg", // Серый жакет с красным кашемировым поясом
+  portraitWhiteClose: "/public/image/portraitWhiteClose.jpg", // Крупный портрет в молочном жакете с серьгами
+  portraitShowroomBW: "/public/image/pol-grey.jpg", // Ч/Б на белом диване на фоне рейлов
+  portraitWhiteSuit: "/public/image/portraitWhiteSuit.jpg", // В белом костюме с длинным шарфом на стуле
+  portraitDarkCoat: "/public/image/portraitDarkCoat.jpg", // В темном оверсайз-пальто в интерьере с диваном
+  portraitTopDown: "/public/image/portraitTopDown.jpg", // Сверху вниз на черном кожаном диване в лодочках
 
   // Женские образы (Примерочные и стайлинг клиентов)
-  lookCoatRedBag: "/src/image/lookCoatRedBag.jpg", // Коричневое пальто с шарфом + красная сумка и туфли
-  lookBlueShirtRedBag: "/src/image/lookBlueShirtRedBag.jpg", // Голубая полосатая рубашка на запах + красная сумка
-  lookYellowKnitGloves: "/src/image/lookYellowKnitGloves.jpg", // Бежевый бомбер, желтый джемпер на плечах, голубые перчатки
-  lookTweedJacketSkirt: "/src/image/lookTweedJacketSkirt.jpg", // Укороченный фактурный жакет, голубая рубашка, юбка с разрезом
-  lookCheckBlazerCulottes: "/src/image/lookCheckBlazerCulottes.jpg", // Клетчатый блейзер, джинсовка, бордо и кюлоты
-  lookSuedeCoatMannequin: "/src/image/lookSuedeCoatMannequin.jpg", // Замшевое шоколадное пальто и молочный трикотаж
-  lookBlueTurtleneckSkirt: "/src/image/lookBlueTurtleneckSkirt.jpg", // Синяя водолазка в рубчик + светлая юбка с ремнем
-  lookWinterPufferPink: "/src/image/lookWinterPufferPink.jpg", // Светлый пуховик, горчичный шарф, розовый свитер
+  lookCoatRedBag: "/public/image/lookCoatRedBag.jpg", // Коричневое пальто с шарфом + красная сумка и туфли
+  lookBlueShirtRedBag: "/public/image/lookBlueShirtRedBag.jpg", // Голубая полосатая рубашка на запах + красная сумка
+  lookYellowKnitGloves: "/public/image/lookYellowKnitGloves.jpg", // Бежевый бомбер, желтый джемпер на плечах, голубые перчатки
+  lookTweedJacketSkirt: "/public/image/lookTweedJacketSkirt.jpg", // Укороченный фактурный жакет, голубая рубашка, юбка с разрезом
+  lookCheckBlazerCulottes: "/public/image/lookCheckBlazerCulottes.jpg", // Клетчатый блейзер, джинсовка, бордо и кюлоты
+  lookSuedeCoatMannequin: "/public/image/lookSuedeCoatMannequin.jpg", // Замшевое шоколадное пальто и молочный трикотаж
+  lookBlueTurtleneckSkirt: "/public/image/lookBlueTurtleneckSkirt.jpg", // Синяя водолазка в рубчик + светлая юбка с ремнем
+  lookWinterPufferPink: "/public/image/lookWinterPufferPink.jpg", // Светлый пуховик, горчичный шарф, розовый свитер
 
   // Мужские капсулы (Коллажи из портфолио)
-  mensLookCasual: "/src/image/mensLookCasual.jpg", // Мужская капсула: клетчатая рубашка, синий пуховик, ботинки
-  mensLookClassic: "/src/image/mensLookClassic.jpg", // Мужская капсула: серое пальто, кожаная сумка, бордовые носки
+  mensLookCasual: "/public/image/mensLookCasual.jpg", // Мужская капсула: клетчатая рубашка, синий пуховик, ботинки
+  mensLookClassic: "/public/image/mensLookClassic.jpg", // Мужская капсула: серое пальто, кожаная сумка, бордовые носки
 
   // Детали, фактуры и эстетика (Moodboard)
-  detailHandBagJjoir: "/src/image/detailHandBagJjoir.jpg", // Рука с черной сумкой JJOIR и бордовые колготки
-  detailKnitStack: "/src/image/detailKnitStack.jpg", // Стопка свитеров (бордо, голубой, молочный) и книга Aesthetic
-  detailKinfolkBook: "/src/image/detailKinfolkBook.jpg", // Книга The Kinfolk Home и керамическая пиала с кольцами
-  detailBurgundyBagBook: "/src/image/detailBurgundyBagBook.jpg", // Бордовая сумка, очки и пальто на кожаной кушетке
-  detailBoucleChairBag: "/src/image/detailBoucleChairBag.jpg", // Кресло букле, бордовый плед, голубая сумка и очки
-  detailRackShirts: "/src/image/detailRackShirts.jpg", // Плечики: бордовый свитер, голубая и белая рубашки
-  detailBlueHeelsConcrete: "/src/image/detailBlueHeelsConcrete.jpg", // Вид сверху: голубые туфли с белыми брюками
-  detailBlueBootsCream: "/src/image/detailBlueBootsCream.jpg", // Мягкие голубые ботильоны в молочном пальто
-  detailBurgundyMules: "/src/image/detailBurgundyMules.jpg", // Винные лаковые мюли на ступеньке
-  detailGreyCardiganBrooch: "/src/image/detailGreyCardiganBrooch.jpg", // Серый кардиган со скульптурной серебряной брошью
-  detailLatrikaBags: "/src/image/detailLatrikaBags.jpg", // Белые шопинг-пакеты LATRIKA с черными лентами
+  detailHandBagJjoir: "/public/image/detailHandBagJjoir.jpg", // Рука с черной сумкой JJOIR и бордовые колготки
+  detailKnitStack: "/public/image/detailKnitStack.jpg", // Стопка свитеров (бордо, голубой, молочный) и книга Aesthetic
+  detailKinfolkBook: "/public/image/detailKinfolkBook.jpg", // Книга The Kinfolk Home и керамическая пиала с кольцами
+  detailBurgundyBagBook: "/public/image/detailBurgundyBagBook.jpg", // Бордовая сумка, очки и пальто на кожаной кушетке
+  detailBoucleChairBag: "/public/image/detailBoucleChairBag.jpg", // Кресло букле, бордовый плед, голубая сумка и очки
+  detailRackShirts: "/public/image/detailRackShirts.jpg", // Плечики: бордовый свитер, голубая и белая рубашки
+  detailBlueHeelsConcrete: "/public/image/detailBlueHeelsConcrete.jpg", // Вид сверху: голубые туфли с белыми брюками
+  detailBlueBootsCream: "/public/image/detailBlueBootsCream.jpg", // Мягкие голубые ботильоны в молочном пальто
+  detailBurgundyMules: "/public/image/detailBurgundyMules.jpg", // Винные лаковые мюли на ступеньке
+  detailGreyCardiganBrooch: "/public/image/detailGreyCardiganBrooch.jpg", // Серый кардиган со скульптурной серебряной брошью
+  detailLatrikaBags: "/public/image/detailLatrikaBags.jpg", // Белые шопинг-пакеты LATRIKA с черными лентами
 
   // --- ОРИГИНАЛЫ ОТЗЫВОВ И ОБРАЗОВ КЛИЕНТОК (ДЛЯ КАРТОЧЕК И МОДАЛКИ) ---
-  reviewStoryYellowTrench: "/src/image/clientYellowTrench.jpg", // Сторис @deepstacia в желтом тренче
-  reviewStoryBeigeSuit: "/src/image/reviewStoryBeigeSuit.jpg", // Клиентка в бежевом костюме с черным ремнем + текст про лукбук на 3 года
-  reviewStoryStreetFriend: "/src/image/reviewStoryStreetFriend.jpg", // Сторис «Поля, ты знак качества! Еду в машине, а по тротуару идет женщина...»
-  reviewStoryMensStyle: "/src/image/reviewStoryMensStyle.jpg", // Сторис «Отзыв о мужской консультации по стилю» на фоне мужского магазина
-  reviewStoryGoldenDress: "/src/image/reviewStoryGoldenDress.jpg", // Сторис на фоне золотистого платья «Работа с тобой - часть психотерапии»
-  reviewStoryWardrobe4h: "/src/image/reviewStoryWardrobe4h.jpg",
+  reviewStoryYellowTrench: "/public/image/clientYellowTrench.jpg", // Сторис @deepstacia в желтом тренче
+  reviewStoryBeigeSuit: "/public/image/reviewStoryBeigeSuit.jpg", // Клиентка в бежевом костюме с черным ремнем + текст про лукбук на 3 года
+  reviewStoryStreetFriend: "/public/image/reviewStoryStreetFriend.jpg", // Сторис «Поля, ты знак качества! Еду в машине, а по тротуару идет женщина...»
+  reviewStoryMensStyle: "/public/image/reviewStoryMensStyle.jpg", // Сторис «Отзыв о мужской консультации по стилю» на фоне мужского магазина
+  reviewStoryGoldenDress: "/public/image/reviewStoryGoldenDress.jpg", // Сторис на фоне золотистого платья «Работа с тобой - часть психотерапии»
+  reviewStoryWardrobe4h: "/public/image/reviewStoryWardrobe4h.jpg",
 };
 
 // ============================================================================
